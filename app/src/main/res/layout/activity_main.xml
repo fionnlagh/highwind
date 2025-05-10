@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/connectButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/infoButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Info"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/lockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lock" />
+
+    <Button
+        android:id="@+id/unlockButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unlock" />
+
+    <Button
+        android:id="@+id/lightOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lights On" />
+
+    <Button
+        android:id="@+id/lightOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIGHTS OFF" />
+
+    <Button
+        android:id="@+id/locate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOCATE" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/defaultSpeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default Speed" />
+
+    <Switch
+        android:id="@+id/toggleSportMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="Sport Mode" />
+
+    <TextView
+        android:id="@+id/speedLimitText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Speed Limit: 21 km/h" />
+
+    <SeekBar
+        android:id="@+id/speedLimit"
+        android:layout_width="381dp"
+        android:layout_height="28dp"
+        android:max="40"
+        android:progress="21" />
+
+    <TextView
+        android:id="@+id/logging"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
