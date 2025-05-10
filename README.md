@@ -11,8 +11,9 @@ features:
 - sport mode / speed setting (please respect local laws)
 
 in order to use this, you will need the bluetooth LE MAC Address and the correct password (that was shipped with the scooter)
-It can't be used for "hacking" or the like
-you then edit line 133 for the password and line 138 for the MAC address in the MainActivity.kt
+It can't be used for "hacking" or the like.
+
+You need to edit line 133 for the password and line 138 for the MAC address in the MainActivity.kt
 and then compile it and throw it at your android phone :-)
 
 known issues:
